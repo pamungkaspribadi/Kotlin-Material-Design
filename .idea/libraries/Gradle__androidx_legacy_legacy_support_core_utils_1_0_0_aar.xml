@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../smmdk/caches/transforms-2/files-2.1/2e094ffa0b3e7ea7902f4cc275d1bf12/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../smmdk/caches/transforms-2/files-2.1/2e094ffa0b3e7ea7902f4cc275d1bf12/res" />
+      <root url="file://$PROJECT_DIR$/../../smmdk/caches/transforms-2/files-2.1/2e094ffa0b3e7ea7902f4cc275d1bf12/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

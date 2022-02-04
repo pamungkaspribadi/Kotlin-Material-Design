@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_selected_circle_1_black_24dp.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_unselected_circle_1_black_24dp.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/view_round_corner_light_green.xml" value="0.20462962962962963" />
+        <entry key="app/src/main/res/layout/app_directory_home_9_category_item.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/app_directory_home_9_flights_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_directory_home_9_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_directory_home_9_notification_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_directory_home_9_popular_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_10_activity.xml" value="0.12001811594202899" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_10_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_activity.xml" value="0.12001811594202899" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_category_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_flights_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_fragment.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_notification_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_popular_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_products_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_promotions_first_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_dashboard_directory_dashboard_9_promotions_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/feature_grid_ecommerce_item_grid_9_item.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/feature_profile_education_profile_1_activity.xml" value="0.12001811594202899" />
+        <entry key="app/src/main/res/layout/feature_signup_general_signup_3_activity.xml" value="0.12001811594202899" />
+        <entry key="app/src/main/res/layout/feature_signup_general_signup_4_activity.xml" value="0.12001811594202899" />
+        <entry key="app/src/main/res/layout/ui_stepper_dots_stepper_activity.xml" value="0.14990942028985507" />
+        <entry key="app/src/main/res/layout/ui_stepper_dots_stepper_fragment.xml" value="0.14990942028985507" />
+        <entry key="app/src/main/res/layout/ui_stepper_general_basic_steppers_text_activity.xml" value="0.14990942028985507" />
+        <entry key="app/src/main/res/menu/menu_home_order_inbox_profile.xml" value="0.19322916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

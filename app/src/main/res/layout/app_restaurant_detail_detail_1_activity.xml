@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_100">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/md_black"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_black"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ImageView
+            android:id="@+id/imageView169"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_black"
+            tools:layout_editor_absoluteX="-28dp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView169"
+            app:layout_constraintTop_toTopOf="@+id/imageView169"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="-133dp">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView430"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Would you like to add a Drink?"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/space_16"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view141" />
+
+                <ImageView
+                    android:id="@+id/staterArrowImageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:tint="@color/md_white_1000"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView423"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView423"
+                    app:srcCompat="@drawable/baseline_down_arrow_black_24" />
+
+                <Button
+                    android:id="@+id/addToCardButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/ps_restaurant_gradient_shape"
+                    android:text="Add To Card"
+                    android:textAllCaps="true"
+                    android:textColor="@color/md_orange_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/quantityTextView" />
+
+                <View
+                    android:id="@+id/view139"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/md_grey_500"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintThree" />
+
+                <ImageView
+                    android:id="@+id/drinkArrowImageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:tint="@color/md_white_1000"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView430"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView430"
+                    app:srcCompat="@drawable/baseline_down_arrow_black_24" />
+
+                <View
+                    android:id="@+id/view138"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/md_grey_500"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintOne" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView47"
+                    android:layout_width="0dp"
+                    android:layout_height="400dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/imageView170"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/classic_pizza" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/profileNameTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="La Reine Pizza"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/space_20"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView47" />
+
+                <TextView
+                    android:id="@+id/textView425"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Mushroom, olives, ham, mozzarella and passata."
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/md_grey_300"
+                    android:textSize="@dimen/space_12"
+                    app:layout_constraintEnd_toEndOf="@+id/profileNameTextView"
+                    app:layout_constraintStart_toStartOf="@+id/profileNameTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/profileNameTextView" />
+
+                <TextView
+                    android:id="@+id/priceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="32dp"
+                    android:text="15"
+                    android:textColor="@color/md_yellow_800"
+                    android:textSize="@dimen/font_h4_size"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView425" />
+
+                <TextView
+                    android:id="@+id/textView419"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="USD"
+                    android:textColor="@color/md_yellow_800"
+                    android:textSize="@dimen/font_h6_size"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/priceTextView"
+                    app:layout_constraintStart_toEndOf="@+id/priceTextView"
+                    app:layout_constraintTop_toTopOf="@+id/priceTextView" />
+
+                <View
+                    android:id="@+id/view137"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@color/md_grey_500"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/priceTextView" />
+
+                <TextView
+                    android:id="@+id/textView420"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Optional"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/space_16"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view137" />
+
+                <TextView
+                    android:id="@+id/textView423"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Would you like to add Stater?"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/space_16"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view138" />
+
+                <ImageView
+                    android:id="@+id/optionalArrowImageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:tint="@color/md_white_1000"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView420"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView420"
+                    app:layout_constraintVertical_bias="0.111"
+                    app:srcCompat="@drawable/baseline_down_arrow_black_24" />
+
+                <TextView
+                    android:id="@+id/quantityTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="1"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view139" />
+
+                <ImageView
+                    android:id="@+id/plusImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="48dp"
+                    android:tint="@color/md_white_1000"
+                    app:layout_constraintBottom_toBottomOf="@+id/quantityTextView"
+                    app:layout_constraintEnd_toStartOf="@+id/quantityTextView"
+                    app:layout_constraintTop_toTopOf="@+id/quantityTextView"
+                    app:srcCompat="@drawable/baseline_line_plus_white_24" />
+
+                <ImageView
+                    android:id="@+id/minusImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="48dp"
+                    android:tint="@color/md_white_1000"
+                    app:layout_constraintBottom_toBottomOf="@+id/quantityTextView"
+                    app:layout_constraintStart_toEndOf="@+id/quantityTextView"
+                    app:layout_constraintTop_toTopOf="@+id/quantityTextView"
+                    app:srcCompat="@drawable/baseline_line_minus_white_24" />
+
+                <Button
+                    android:id="@+id/payButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/ps_restaurant_gradient_shape"
+                    android:text="Pay Now"
+                    android:textAllCaps="true"
+                    android:textColor="@color/md_orange_100"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/addToCardButton" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintOne"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView420">
+
+                    <CheckBox
+                        android:id="@+id/optionCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:buttonTint="@color/md_white_1000"
+                        android:text="Change to Romana"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView424"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="+2.5 USD"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/optionCheckBox"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/optionCheckBox" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView423">
+
+                    <TextView
+                        android:id="@+id/textView438"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="+2.5 USD"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/coolDrinkCheckBox"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/coolDrinkCheckBox" />
+
+                    <CheckBox
+                        android:id="@+id/coolDrinkCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:buttonTint="@color/md_white_1000"
+                        android:text="Cool Drink"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <CheckBox
+                        android:id="@+id/bakeChickenCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:buttonTint="@color/md_white_1000"
+                        android:text="Baked Chicken"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/coolDrinkCheckBox" />
+
+
+                    <TextView
+                        android:id="@+id/textView421"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="+10.5 USD"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/bakeChickenCheckBox"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/bakeChickenCheckBox" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:id="@+id/view141"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/md_grey_500"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintTwo" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintThree"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView430">
+
+
+                    <TextView
+                        android:id="@+id/textView440"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="+4.28 USD"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/coolDrinkCheckBox4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/coolDrinkCheckBox4" />
+
+                    <TextView
+                        android:id="@+id/textView439"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="+4.28 USD"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/coolDrinkCheckBox3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/coolDrinkCheckBox3" />
+
+                    <CheckBox
+                        android:id="@+id/coolDrinkCheckBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:buttonTint="@color/md_white_1000"
+                        android:text="Coke"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <CheckBox
+                        android:id="@+id/coolDrinkCheckBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:buttonTint="@color/md_white_1000"
+                        android:text="Club Soda"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/coolDrinkCheckBox2" />
+
+                    <CheckBox
+                        android:id="@+id/coolDrinkCheckBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:buttonTint="@color/md_white_1000"
+                        android:text="Sprite"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/coolDrinkCheckBox4" />
+
+                    <TextView
+                        android:id="@+id/textView428"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="+4.28 USD"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/coolDrinkCheckBox2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/coolDrinkCheckBox2" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

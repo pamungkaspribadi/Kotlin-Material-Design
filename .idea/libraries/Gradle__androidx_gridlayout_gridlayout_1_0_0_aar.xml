@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.gridlayout:gridlayout:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../smmdk/caches/transforms-2/files-2.1/66acff0b6a528d60264cd350ba575312/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../smmdk/caches/transforms-2/files-2.1/66acff0b6a528d60264cd350ba575312/res" />
+      <root url="file://$PROJECT_DIR$/../../smmdk/caches/transforms-2/files-2.1/66acff0b6a528d60264cd350ba575312/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

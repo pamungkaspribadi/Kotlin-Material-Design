@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_100">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/md_black"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_black"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <ImageView
+            android:id="@+id/imageView168"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/bg_smoke_grey" />
+
+        <TextView
+            android:id="@+id/homeTitleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/aerolitecptwo"
+            android:text="PanaceaFood"
+            android:textAlignment="center"
+            android:textColor="@color/md_amber_800"
+            android:textSize="@dimen/space_68"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView168" />
+
+        <TextView
+            android:id="@+id/homeDescTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="4dp"
+            android:text="Italian. American. Pizza. Salads. Pasta."
+            android:textAlignment="center"
+            android:textColor="@color/md_orange_100"
+            app:layout_constraintEnd_toEndOf="@+id/homeTitleTextView"
+            app:layout_constraintStart_toStartOf="@+id/homeTitleTextView"
+            app:layout_constraintTop_toBottomOf="@+id/homeTitleTextView" />
+
+        <Button
+            android:id="@+id/letEatButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/ps_restaurant_gradient_shape"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:textColor="@color/md_orange_100"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText25" />
+
+        <EditText
+            android:id="@+id/editText25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/layout_border_for_restaurant_home_5"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="What kind of food do you enjoy eating?"
+            android:inputType="textPersonName"
+            android:padding="@dimen/space_16"
+            android:textAlignment="viewStart"
+            android:textColorHint="@color/md_grey_500"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/font_body_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeDescTextView" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/md_black"
+            app:itemIconTint="@color/app_restaurant_home_item_selector"
+            app:itemTextColor="@color/app_restaurant_home_item_selector"
+            app:labelVisibilityMode="labeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/menu_for_restaurant_home" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

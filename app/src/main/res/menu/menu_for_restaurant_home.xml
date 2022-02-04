@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeMenu"
+        android:icon="@drawable/baseline_home_line_24"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/profileMenu"
+        android:icon="@drawable/baseline_user_24"
+        android:title="Profile"
+        />
+    <item
+        android:id="@+id/CardMenu"
+        android:icon="@drawable/baseline_basket_line_white_24"
+        android:title="Card"
+        />
+
+    <item
+        android:id="@+id/searchMenu"
+        android:icon="@drawable/search"
+        android:title="Search"
+        />
+
+    <item
+        android:id="@+id/favouriteMenu"
+        android:icon="@drawable/baseline_favourite_24"
+        android:title="Favourite"
+        />
+</menu>
